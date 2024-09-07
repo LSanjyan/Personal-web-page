@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background-color: #ffffff;
+    padding-bottom: 60px;
+}  
+
+header {
+    background-color: #e7cdcd;
+    color: #000000;
+    padding: 1rem;
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: -30px;
+    padding-top: -150px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+nav ul li {
+    margin: 0 1rem;
+    color: #000000;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #000000;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+main {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.image1 {
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+
+}
+
+h4 {
+    margin-top: 1rem;
+
+}
+
+h1 {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    
+}
+
+p {
+    margin-top: 1rem;
+    line-height: 1.6;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.class1 {
+    width: 300px;
+    height: 300px;
+    
+
+}
+.story{ 
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+.long {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.back{
+    background-color: #e7cdcd;
+    opacity: 0.8;
+    color: rgb(169, 48, 169);
+    position:relative;
+    left:650px;
+    
+    border-radius: 20%;
+   
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.image3 {width: 300px;
+    height: 300px;
+   
+}
+.Exp { 
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+.image4 {
+    width: 300px;
+    height: 300px;
+}  
+.port {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}  
+a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 50px;
+    
+
+}
+a:hover {
+    color: #d18e8e; 
+    
+    transform: scale(1.05); 
+}
+
+.back1 {
+        background-color: #e7cdcd;
+        opacity: 0.8;
+        color: rgb(169, 48, 169);
+        position: fixed; 
+        left: 50%;
+        bottom: 40px;
+        transform: translateX(-50%); 
+        border-radius: 20%;
+        padding: 5px;
+        height: 30px;
+    }
+    
+
+
+
+
+footer {
+    background-color: #e7cdcd;
+    color: #000000;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    z-index: 10;
+}
